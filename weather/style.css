@@ -97,19 +97,18 @@ font-weight: 500;
     margin-top: 10px;
     display: none;
 }
-@media(max-width:375)
+@media(max-width:360px)
 {
     .card{
-        width: 90%;
+        width: 110%;
         max-width: 470px;
         background: linear-gradient(135deg,#00feba,#5b548a);
         color: #fff;
         margin: 100px auto 0;
-        border-radius: 20px;
         padding: 40px 35px;
-        text-align: center;
-        justify-content: center;
-    
+        position: absolute;
+        top: -20%;
+        height: 690px;
     }
     .search{
         width: 100%;
@@ -117,6 +116,7 @@ font-weight: 500;
         align-items: center;
         justify-content: space-between;
         position: fixed;
+        left: -2px;
     }
     .search input{
         border: 0;
@@ -124,20 +124,25 @@ font-weight: 500;
     background: #ebfffc;
     color: #555;
     padding: 10px 25px;
-    height: 60px;
+    height: 40px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
     border-radius: 20px;
+    position: relative;
+    left: 2%;
     }
     .search button{
         border: 0;
         outline:0;
     background: #ebfffc;
     border-radius: 60%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
+    position: relative;
+    left: -5px;
+    
     }
     .search button img{
         width: 16px;
@@ -145,16 +150,22 @@ font-weight: 500;
     .weather-icon{
         width: 170px;
         margin-top: 30px;
+       position: relative;
+       top: 50px;
     
     }
     .weather h1{
     font-size: 80px;
     font-weight: 500;
+    position: relative;
+    top: 50px;
     }
     .weather h2{
         font-size: 45px;
         font-weight: 400;
         margin-top: -10px;
+        position: relative;
+    top: 50px;
     }
     .details{
         display: flex;
@@ -168,6 +179,8 @@ font-weight: 500;
         align-items: center;
         text-align: left;
         justify-content: space-between;
+        position: relative;
+    top: 50px;
     
     }
     .col img{
@@ -180,7 +193,7 @@ font-weight: 500;
         margin-top: -6px;
     }
     .weather{
-        display: none;
+        display: block;
     }
     .error{
         text-align: left;
