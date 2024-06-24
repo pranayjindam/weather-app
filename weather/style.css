@@ -118,7 +118,7 @@ font-weight: 500;
         justify-content: space-between;
         position: relative;
         left: 16px;
-        top: 10%;
+        top: 50%;
     }
     .search input{
         border: 0;
@@ -133,8 +133,6 @@ font-weight: 500;
     font-size: 18px;
     border-radius: 20px;
     position: relative;
-    left: 2%;
-        margin-top: 10px;
     }
     .search button{
         border: 0;
