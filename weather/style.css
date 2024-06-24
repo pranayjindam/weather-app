@@ -97,7 +97,7 @@ font-weight: 500;
     margin-top: 10px;
     display: none;
 }
-@media(max-width:360px)
+@media(max-width:361px)
 {
     .card{
         width: 110%;
