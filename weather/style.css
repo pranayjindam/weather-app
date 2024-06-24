@@ -70,6 +70,7 @@ font-weight: 500;
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+    
 }
 .col{
     display: flex;
@@ -118,7 +119,7 @@ font-weight: 500;
         justify-content: space-between;
         position: relative;
         left: 16px;
-        top: 15%;
+        margin-top:15px;
     }
     .search input{
         border: 0;
@@ -172,7 +173,7 @@ font-weight: 500;
         justify-content: space-between;
         padding: 0 20px;
         margin-top: 10px;
-        margin-right: 20px;
+        margin-right: 30px;
     }
     .col{
         display: flex;
