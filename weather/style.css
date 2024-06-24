@@ -174,7 +174,7 @@ font-weight: 500;
         justify-content: space-between;
         padding: 0 20px;
         margin-top: 10px;
-        margin-right: 30px;
+        margin-right: 10%;
     }
     .col{
         display: flex;
