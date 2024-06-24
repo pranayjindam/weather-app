@@ -196,7 +196,7 @@ font-weight: 500;
         margin-top: 16px;
     }
     .weather{
-        display: block;
+        display: none;
     }
     .error{
         text-align: left;
