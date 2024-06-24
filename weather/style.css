@@ -119,6 +119,7 @@ font-weight: 500;
         justify-content: space-between;
         position: fixed;
         left: 16px;
+        top:-10%;
     }
     .search input{
         border: 0;
