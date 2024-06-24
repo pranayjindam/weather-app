@@ -134,6 +134,7 @@ font-weight: 500;
     border-radius: 20px;
     position: relative;
     left: 2%;
+        margin-top: 10px;
     }
     .search button{
         border: 0;
