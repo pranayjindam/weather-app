@@ -46,6 +46,8 @@ border-radius: 60%;
 width: 60px;
 height: 60px;
 cursor: pointer;
+    position:relative;
+    height:15px;
 }
 .search button img{
     width: 16px;
@@ -131,6 +133,8 @@ font-weight: 500;
     border-radius: 20px;
     position: relative;
     left: 2%;
+        top:15px:
+        
     }
     .search button{
         border: 0;
