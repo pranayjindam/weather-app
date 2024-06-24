@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -109,7 +110,7 @@ font-weight: 500;
         padding: 40px 35px;
         position: absolute;
         top: -20%;
-        height: 800px;
+        height: 804px;
         border-radius: 0%;
     }
     .search{
@@ -119,7 +120,7 @@ font-weight: 500;
         justify-content: space-between;
         position: relative;
         left: 16px;
-        margin-top:15px;
+        margin-top:15%;
     }
     .search input{
         border: 0;
@@ -194,7 +195,7 @@ font-weight: 500;
         margin-top: 16px;
     }
     .weather{
-        display: none;
+        display: block;
     }
     .error{
         text-align: left;
