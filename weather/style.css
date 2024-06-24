@@ -46,8 +46,6 @@ border-radius: 60%;
 width: 60px;
 height: 60px;
 cursor: pointer;
-    position:relative;
-    height:15px;
 }
 .search button img{
     width: 16px;
@@ -99,7 +97,7 @@ font-weight: 500;
     margin-top: 10px;
     display: none;
 }
-@media(max-width:361px)
+@media(max-width:360px)
 {
     .card{
         width: 110%;
@@ -110,15 +108,17 @@ font-weight: 500;
         padding: 40px 35px;
         position: absolute;
         top: -20%;
-        height: 800px;
+        height: 690px;
+        border-radius: 0%;
     }
     .search{
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: fixed;
-        left: -2px;
+        left: 16px;
+        top: 10%;
     }
     .search input{
         border: 0;
@@ -133,8 +133,6 @@ font-weight: 500;
     border-radius: 20px;
     position: relative;
     left: 2%;
-        top:15px:
-        
     }
     .search button{
         border: 0;
